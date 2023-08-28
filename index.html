@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold's Gym India - Fitness Center</title>
+    <link rel="stylesheet" href="styleRev.css">
+    <script src="https://kit.fontawesome.com/2a67444176.js" crossorigin="anonymous"></script>
+</head>
+<body > 
+    <header id="header" onscroll="setFixed()">
+        <div class="top flex">
+            <span class="black"><i class="fa-solid fa-phone" style="color: #000205;"></i>+91 8976834832</span>
+            <p class="black"> Gold's Gym Fitness Institute: Central IVR Number +91 8067039831 Mumbai 9029002873 Pune 9029002870 Delhi 9560044981 Bengaluru 9987536492</p>
+            <span class="black"><i class="fa-solid fa-envelope black"></i>Wecare@goldsgym.in</span>
+        </div>
+        <nav class="navbar flex">
+            <div class="logo"><img src="./img/logo.png" alt="Gold's Gym India"></div>
+            <ul id="nav-list">
+                <div class="dropdiv">
+                    <a href="#" class="list-item" onmouseenter="showdrop(1)" onmouseleave="hideDrop(1)" value="">Get Started<i class="fa-solid fa-chevron-down" style="color: #fcfcfd;"></i></a>
+                    <ul class="dropdown" id="1" onmouseenter="showdrop(1)" onmouseleave="hideDrop(1)">
+                        <li class="option" value="">Our Gyms Inlia</li>
+                        <li class="option" value="">Our Gyms Nepal</li>
+                        <li class="option" value="">Comming Soon</li>
+                        <li class="option" value="">Pre-Sales</li>
+                        <li class="option" value="">Amazing Offers</li>
+                        <li class="option" value="">Buy Membership now</li>
+                        <li class="option" value="">Blogs</li>
+                        <li class="option" value="">Calender</li>
+                        <li class="option" value="">Our Events</li>
+                        <li class="option" value="">Our Events</li>
+                    </ul>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item" onmouseenter="showdrop(2)" onmouseleave="hideDrop(2)">Fiteness Institute - GGFI<i class="fa-solid fa-chevron-down" style="color: #fcfcfd;"></i></a>
+                    <ul class="dropdown" id="2" onmouseenter="showdrop(2)" onmouseleave="hideDrop(2)">
+                        <li class="option" value="">About Us</li>
+                        <li class="option" value="">Out Faculty</li>
+                        <li class="option" value="">Certifications & Accreditaitons</li>
+                        <li class="option" value="">Courses</li>
+                        <li class="option" value="">Bus a course</li>
+                    </ul>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item">Gallary</a>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item" onmouseenter="showdrop(3)" onmouseleave="hideDrop(3)">Programs<i class="fa-solid fa-chevron-down" style="color: #fcfcfd;"></i></a>
+                    <ul class="dropdown" id="3" onmouseenter="showdrop(3)" onmouseleave="hideDrop(3)">
+                        <li class="option" value="">Corporate Memberships</li>
+                        <li class="option" value="">Personal Training Programs</li>
+                        <li class="option" value="">Quik Result Programs</li>
+                        <li class="option" value="">Group Program</li>
+                        <li class="option" value="">Corporate Wellness Program</li>
+                    </ul>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item flex">Franchise</a>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item flex">Advertise with us</a>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" onmouseenter="showdrop(4)" onmouseleave="hideDrop(4)" class="list-item">Convention<i class="fa-solid fa-chevron-down" style="color: #fcfcfd;"></i></a>
+                    <ul class="dropdown" id="4" onmouseenter="showdrop(4)" onmouseleave="hideDrop(4)">
+                        <li class="option" value="">Bangkok 2023</li>
+                        <li class="option" value="">Dubai 2022</li>
+                        <li class="option" value="">Kuala Lampur 2019</li>
+                        <li class="option" value="">Kochi 2018</li>
+                    </ul>
+                </div>
+                <div class="dropdiv">
+                    <a href="#" class="list-item flex">Contact</a>
+                </div>
+                <i class="fa-solid fa-xmark-large" style="color: #f3eded;"></i>   
+                <div class="buttons">
+                    <button class="btn-1 free-btn">free Trial</button>
+                    <button class="btn-2 join-btn">Join Now</button>
+                </div>
+            </ul>
+            <div onclick="openNav()" class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="section-1">
+            <div class="mySlides fade">
+                <img src="./img/slide1.jpg" style="width:100%; min-height: 30vh;">
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/slide2.jpg" style="width:100%; min-height: 30vh;">
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/slide4.jpg" style="width:100%; min-height: 30vh;">
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/slide5.jpg" style="width:100%; min-height: 30vh;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+
+    <section id="section-2" class="other flex">
+        <div class="heading">
+            <span class="heading-1 black">We can give you</span> <br>
+            <span class="heading-2 yellow">Much More Than Other</span>
+        </div>
+        <div class="item-list">
+            <div class="item flex">
+                <img class="img"  src="./img/1.png" alt="">
+                <h4 class="item-heading black">156 Gyms</h4>
+            </div>
+            <div class="item flex">
+                <img class="img"  src="./img/2.png" alt="">
+                <h4 class="item-heading black">95 Cities</h4>
+            </div>
+            <div class="item flex">
+                <img class="img"  src="./img/3.png" alt="">
+                <h4 class="item-heading black">26 State</h4>
+            </div>
+            <div class="item flex">
+                <img class="img"  src="./img/4.png" alt="">
+                <h4 class="item-heading black">Personal Training Program</h4>
+            </div>
+            <div class="item flex">
+                <img class="img"  src="./img/5.png" alt="">
+                <h4 class="item-heading black">Corporate Wellness Program</h4>
+            </div>
+            <div class="item flex">
+                <img class="img"  src="./img/6.png" alt="">
+                <h4 class="item-heading black">Group Program</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="app-download flex">
+            <div class="left">
+                <h2 class="heading yellow">Download the Gold's Gym India <br>App today</h2>
+                <p class="sub-heading yellow">Get access to workout videos by international fitness trainers</p>
+            </div>
+            <div class="right">
+                <button class="btn-2" >Download Now</button>
+            </div>
+        </div>
+        <div class="logos flex">
+            <img class="image" src="./img/logo-1.png" alt="">
+            <img class="image" src="./img/logo-2.png" alt="">
+            <img class="image" src="./img/logo-3.png" alt="">
+        </div>
+        <div class="app-download flex special">
+            <div class="offer-heading yellow" >Special <br>Offer</div>
+            <div class="mid left">
+                <h2 class="heading yellow">Buy a Gold's Gym membership <br>today</h2>
+                <p class="sub-heading yellow">Start your fitness journey today</p>
+            </div>
+            <div class="right">
+                <button class="btn-2" >sign me up</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-4">
+        <div class="container flex">
+            <div class="content flex">
+                <div class="left flex">
+                    <div class="video-div">
+                        <h2 class="heading">Our<i class="yellow">Latest Video</i></h2>
+                    </div>
+                    <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/YrQpafPoJ_I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                </div>
+                <div class="right flex">
+                    <h2 class="heading">GET IN TOUCH<span class="yellow">WITH US</span></h2>
+                    <form class="form flex" action="POST">
+                        <div class="form-group">
+                            <div class="select-div">
+                                <select class="select">
+                                    <option>GET A FREE TRAINING SESSION</option>
+                                    <option>JOIN THE GYN</option>
+                                    <option>APPLY FOR A JOB</option>
+                                    <option>INTERESTED IN THE MONTHLY PROMO</option>
+                                    <option>WRITE US A TESTIMONIAL</option>
+                                    <option>ADVERTISE WITH US</option>
+                                    <option>CONTACT US</option>
+                                    <option>SUBSCRIBE TO OUR NEWSLETTER</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="contact flex">
+                            <input class="input" type="text" placeholder="Enter name">
+                            <input class="input" type="text" placeholder="Enter name">
+                            <input class="input" type="text" placeholder="Enter name">
+                            <input class="input" type="text" placeholder="Enter name">
+                        </div>
+                        <div class="submit-btn ">
+                            <button class="btn-2">JOIN NOW</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="offers flex">
+            <h2 class="heading white">PRE-SALES OFFERS<i class="yellow">HAVE BEGUN</i></h2>
+            <span class="gray">BOOK NOW FOR SPECIAL RATES</span>
+            <div class="grid flex">
+                <div class="grid-item flex">
+                    <h4 class="item">Gold Gym Deoghar</h4>
+                    <button class="btn btn-2">View</button>
+                </div>
+                <div class="grid-item flex">
+                    <h4 class="item">Gold Gym Deoghar</h4>
+                    <button class="btn btn-2">View</button>
+                </div>
+                <div class="grid-item flex">
+                    <h4 class="item">Gold Gym Deoghar</h4>
+                    <button class="btn btn-2">View</button>
+                </div>
+                <div class="grid-item flex">
+                    <h4 class="item">Gold Gym Deoghar</h4>
+                    <button class="btn btn-2">View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-5" class="branch ">
+        <div class="training flex">
+            <div class="line"></div>
+            <h3 class="heading yellow">GYMS COMING <span class="soon">Soon</span></h3>
+            <div class="img-div">
+                <div class="address">GYM COMING SOON: <span class="address yellow">  KHARADI-PUNE- MAHARASHTRA| CHAKAN-PUNE-MAHARASHTRA|DIPHU-ASSAM|GURUGRAM-SECTOR 67|BREACH CANDY-MUMBAI-MAHARASHTRA</span></div>
+                <img  class="image" src="./img/training.jpg" alt="">
+            </div>
+        </div>
+        <div class="activity"> 
+            <i class="fa-solid fa-horizontal-rule rule" style="color: #ffec1f;"></i>
+            <h3 class="heading yellow">Gold's Gym<span class="white">Fitness Institute</span></h3>
+            <h4 class="sub-heading">Physical Activity Or Can Improve Your Health</h4>
+            <div class="img-div">
+                <img class="image" src="./img/activity1.jpg" alt="">
+                <img class="image" src="./img/activity2.jpg" alt="">
+                <img class="image" src="./img/activity3.jpg" alt="">
+                <img class="image" src="./img/activity4.jpg" alt="">
+            </div>
+            <button class="btn-2 activity-btn">Know more</button>
+        </div>  
+    </section> 
+
+    <section id="section-6">
+        <h1 class="heading black">Latest <span class="yellow">Events</span></h1>
+        <div class="events flex">
+            <div class="event flex">
+                <div class="box-event">
+                    <div class="inner-box flex" >
+                        <img src="./img/event1.jpg" class="image" alt="Best Bodyweight Exercises" title="Best Bodyweight Exercises" />
+                        <h3 class="box-heading black">Best Bodyweight Exercises</h3>
+                        <p class="desc black">Lorem imsup dolor sit amet. Providing high quality service and expertise...</p>                                      
+                    </div>
+                </div>
+            </div> 
+            <div class="event flex">
+                <div class="box-event">
+                    <div class="inner-box flex" >
+                        <img src="./img/event2.jpg" class="image" alt="Best Bodyweight Exercises" title="Best Bodyweight Exercises" />
+                        <h3 class="box-heading black">Best Bodyweight Exercises</h3>
+                        <p class="desc black">Lorem imsup dolor sit amet. Providing high quality service and expertise...</p>                                      
+                    </div>
+                </div>
+            </div> 
+            <div class="event flex">
+                <div class="box-event">
+                    <div class="inner-box flex" >
+                        <img src="./img/event3.jpg" class="image" alt="Best Bodyweight Exercises" title="Best Bodyweight Exercises" />
+                        <h3 class="box-heading black">Best Bodyweight Exercises</h3>
+                        <p class="desc black">Lorem imsup dolor sit amet. Providing high quality service and expertise...</p>                                      
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="section-7" class="blogs">
+        <div class="container" ">
+            <h2 class="heading ">The Latest Blogs</h2>
+            <div class="blogs flex">
+                <div class="blog">
+                    <div class="blog-date flex">
+                        <span class="date black">23</span>
+                        <span class="month black">Feb</span>
+                        <span class="year black">2022</span>
+                    </div>
+                    <div class="content flex">
+                        <p class="name"> Manish Patole</p>
+                        <p class="topic">Is banana good for weight loss?</p>
+                        <p class="para">&ldquo;Bananas&nbsp;are a healthful addition to a balanced&nbsp;diet for weight loss, as they provide a range of vital nutrients and are a&nbsp;good&nbsp;source of fiber. Bananas make an excellent snack food, dessert or breakfast. Their versatility makes them easy to add to your diet plan for</p>
+                        <a href="https://goldsgym.in/blog/is-banana-good-for-weight-loss">Read More <i class="fa fa-arrow-circle-right" style="font-size:16px"></i></a>
+                    </div>
+                </div>
+                <div class="blog ">
+                    <div class="blog-date flex">
+                        <span class="black date">26</span>
+                        <span class="black month">Jul</span>
+                        <span class="black year">2023</span>
+                    </div>
+                    <div class="content flex">
+                        <p class="name"> Manish Patole</p>
+                        <p class="topic">How Do I Cut Down Belly Fat?</p>
+                        <p class="para">&nbsp;&lsquo;Abs are made in the kitchen&rsquo;. How many times have you heard or seen this quote while browsing on how to lose belly fat fast?&nbsp; This holds true, without a proper diet with the proper foods, you will not achieve those six pack abs that you crave so much. But what foods</p>
+                        <a href="https://goldsgym.in/blog/how-do-i-cut-down-belly-fat">Read More <i class="fa fa-arrow-circle-right" style="font-size:16px"></i></a>
+                    </div>
+                </div>
+                <div class="blog ">
+                    <div class="blog-date flex">
+                        <span class="date black">23</span>
+                        <span class="month black">Feb</span>
+                        <span class="year black">2022</span>
+                    </div>
+                    <div class="content flex">
+                        <p class="name"> Manish Patole</p>
+                        <p class="topic">Grow, Nourish, Sustain Through Food!</p>
+                        <p class="para">It&rsquo;s said the basic need of the individual is roti (food), kapda (body) and makaan (shelter). Give a deep thought to this, you will be amazed that food influences the clothes size that we wear and the kind of sleep that we get each day!Is it that people who are not getting enough food are</p>
+                        <a href="https://goldsgym.in/blog/grow-nourish-sustain-through-food">Read More <i class="fa fa-arrow-circle-right" style="font-size:16px"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="final">
+        <div class="container">
+            <h2 class="heading black">TESTOMONIALS</h2>
+            <h4 class="black sub-heading">What our clients says</h4>
+            <img class="image" src="./img/quote-left_25672.png" alt="">
+            <img class="image" src="./img/icons8-circle-48.png" alt="">
+            <p class="black para">So this is more than just a gym. You can walk in and make friends that will guide you and help you out each time. They have great programs such as kickboxing,yoga, Zumba etc that you can opt for to change the routine once in a while. They have dedicated cardio and spinning sections with mood lighting and good instructors. The staff is humble and helpful whenever approached.</p>
+            <span class="name black">~Utkrisht Kaushik</span>
+        </div>
+  
+    </section>
+
+    <footer id="footer" >
+        <div class="footer-container">  
+            <div class="content ">
+                <div class="links">
+                    <h2 class="yellow">QUICK LINKS</h2>
+                    <div class="link flex white">
+                        <ul class="list flex">
+                            <li class="list-item">About Us</li>
+                            <li class="list-item">Our Teams</li>
+                            <li class="list-item">Careers</li>
+                            <li class="list-item">Testimonials</li>
+                            <li class="list-item">Work Culture</li>
+                            <li class="list-item">Press Room</li>
+                            <li class="list-item">Promontion</li>
+                            <li class="list-item">Events</li>
+                            <li class="list-item">Amazing offer</li>
+                            <li class="list-item">Group Program</li>
+                        </ul>
+                        <ul class="list flex">
+                            <li class="list-item">Blogs</li>
+                            <li class="list-item">Programs</li>
+                            <li class="list-item">Gallery</li>
+                            <li class="list-item">Franchise</li>
+                            <li class="list-item">GGFI</li>
+                            <li class="list-item">Advertise With us</li>
+                            <li class="list-item">Buy Membership now</li>
+                            <li class="list-item">Gym Locator</li>
+                            <li class="list-item">Sitemap</li>
+                            <li class="list-item">Gold's Gym India</li>
+                            <li class="list-item">Calender</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="letter white">
+                    <h2 class="yellow">NEWS LETTER</h2>
+                    <span class="white">sign up for mailing list to get latest updates and offers</span>
+                    <div class="input-div flex">
+                        <input class="input" type="text" placeholder="E-mail">
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="news white">
+                    <h2 class="yellow">Latest News</h2>
+                    <div class="inner-news flex">
+                        <img src="gng" alt=" ">
+                        <p class="para">7 simple ways to boost your metabolism</p>
+                    </div>
+                    <div class="inner-news flex">
+                        <img src="" alt=" ">
+                        <p class="para">Revesre Running,Pilates,And More:Trends That Will Keep You Fit in 2023</p>
+                    </div>
+                    <div class="inner-news flex">
+                        <img src="gng" alt=" ">
+                        <p class="para">5 most common myths about carbs busted by exports</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom ">
+            <div class="left white flex" >@2023 Gold'sGym.in. All Rights Reserved</div>
+            <div class="mid flex">
+                <img class="image" src="./img/google-play-store.png" alt="">
+                <img class="image" src="./img/apple-app-store.png" alt="">
+            </div>
+            <div class="right white"><p>Terms & conditions|Privacy Policy</p></div>
+        </div>
+    </footer> 
+
+    <script>
+        function openNav(){
+            console.log('Click on menu bar')
+            let nav = document.getElementById("nav-list");
+            nav.style.display= 'flex';
+        }
+        function showdrop(value){
+            console.log('entered');
+            let dropdiv = document.getElementById(value);
+            dropdiv.style.top = '0rem'
+        }
+        function hideDrop(value){
+            console.log('entered');
+            let dropdiv = document.getElementById(value);
+            dropdiv.style.top = '-50rem'
+        }
+        function setFixed(){
+            let navbar = getElementsByClassName('navbar');
+            navbar.style.top = 0;
+        }
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+
+    </script>
+</body>
+</html>
